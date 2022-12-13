@@ -64,7 +64,6 @@ const Home = () => {
       </div>
       {/* SHOW CASE */}
 
-
       {/* FACULTIES */}
       <div className="faculty">
         <h2>Fakultetlar</h2>
@@ -85,27 +84,38 @@ const Home = () => {
       </div>
       {/* FACULTIES */}
 
-
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
         <div className="reserch">
           <h2>Ilmiy tadqiqotlar</h2>
-          <article>
-            
-          </article>
+          <article></article>
         </div>
         <div className="comfort">
           <h2>Bizning afzalliklarimiz</h2>
-          <article>
-
-          </article>
+          <article></article>
         </div>
       </div>
       {/* RESERCH AND OUR COMFORT */}
 
       {/* OTHER SECTION */}
       <div className="reason-section">
-        s
+        <div className="reason-section-left">
+          <div>
+            <p>Bizning intitutni <br /> tanlash uchun</p>
+            <h1>5</h1>
+            <p>sabab</p>
+          </div>
+          <div>
+            <button className="btn c-btn">1</button>
+            <button className="btn c-btn">2</button>
+            <button className="btn c-btn">3</button>
+            <button className="btn c-btn">4</button>
+            <button className="btn c-btn">5</button>
+          </div>
+        </div>
+        <div className="reason-section-right">
+          Bu yerda carusel bo`ladi
+        </div>
       </div>
       {/* OTHER SECTION */}
     </>
