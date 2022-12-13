@@ -22,6 +22,7 @@ import {
   ForeignFacultiesIcon,
   CareWorkIcon,
 } from "../assets/icons/Icons";
+import Partner from "../components/partner/Partner";
 
 const Home = () => {
   return (
@@ -101,14 +102,16 @@ const Home = () => {
         </div>
         <div className="comfort">
           <Superiority />
-          
         </div>
       </div>
       {/* RESERCH AND OUR COMFORT */}
 
       {/* OTHER SECTION */}
-      <div className="reason-section">s</div>
+      <div className="reason-section"></div>
       {/* OTHER SECTION */}
+      <div className="partner-page">
+        <Partner />
+      </div>
     </>
   );
 };

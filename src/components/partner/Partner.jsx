@@ -1,26 +1,21 @@
-import React from 'react'
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
- 
-import "./Superiority.css"
-
- import {
-   Superiority1,
-   Superiority2,
-   Superiority3,
-   Superiority4,
-   Superiority5,
- } from "../../assets/icons/Icons";
-
-const Superiority = () => {
+import lexuz from "../../assets/images/lexuz.png";
+import maktab from "../../assets/images/maktab.png";
+import yoshlar from "../../assets/images/yoshlar.png";
+import dtm from "../../assets/images/dtm.png";
+import mainInfo from "../../assets/images/main-logo.png";
+import "./Partner.css";
+const Partner = () => {
   return (
     <section>
       <>
-        <h3>Bizning afzalliklarimiz</h3>
+        <h3>Hamkorlar</h3>
         <Swiper
           slidesPerView={5}
           spaceBetween={5}
@@ -51,83 +46,78 @@ const Superiority = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper superiorityInfo"
+          className="mySwiper partnerInfo"
         >
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority1 />
+              <span className="">
+                <img src={lexuz} alt="" />
               </span>
-              <h3>
-                Taʼlim sifatini nazorat qilishning avtomatlashtirilganligi
-              </h3>
+              <h3>Ўзбекистон Республикаси Қонун ҳужжатлари</h3>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div>
+              <span className="">
+                <img src={maktab} alt="" />
+              </span>
+              <h3>o'zbekiston oliy va o'rta maxsus ta'lim vazirligi</h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority2 />
+              <span className="">
+                <img src={yoshlar} alt="" />
               </span>
-              <h3>
-                O‘quv auditoriya va laboratoriyalarning zamonaviy uskunalar
-                bilan taʼminlanganligi
-              </h3>
+              <h3>o'zbekiston yoshlar ittifoqi</h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority3 />
+              <span className="">
+                <img src={dtm} alt="" />
               </span>
-              <h3>
-                Taʼlim jarayoniga nufuzli chet el klinikalari va
-                universitetlaridan ilg‘or mutaxassislarni jalb etish
-              </h3>
+              <h3>Davlat test markazi</h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority4 />
+              <span className="">
+                <img src={lexuz} alt="" />
               </span>
-              <h3>To‘liq avtomatlashtirilgan universitet</h3>
+              <h3>Ўзбекистон Республикаси Қонун ҳужжатлари</h3>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div>
+              <span className="">
+                <img src={maktab} alt="" />
+              </span>
+              <h3>o'zbekiston oliy va o'rta maxsus ta'lim vazirligi</h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority5 />
+              <span className="">
+                <img src={yoshlar} alt="" />
               </span>
-              <h3>
-                Taʼlimning ilk bosqichlaridan tibbiyot amaliyotiga jalb etish
-              </h3>
+              <h3>o'zbekiston yoshlar ittifoqi</h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <span className="icon">
-                <Superiority1 />
+              <span className="">
+                <img src={dtm} alt="" />
               </span>
-              <h3>
-                Taʼlim sifatini nazorat qilishning avtomatlashtirilganligi
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority2 />
-              </span>
-              <h3>
-                O‘quv auditoriya va laboratoriyalarning zamonaviy uskunalar
-                bilan taʼminlanganligi
-              </h3>
+              <h3>Davlat test markazi</h3>
             </div>
           </SwiperSlide>
         </Swiper>
       </>
     </section>
   );
-}
+};
 
-export default Superiority
+export default Partner;
