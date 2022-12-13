@@ -4,12 +4,29 @@ section{
     box-sizing: border-box;
 }
 
-.carusel-icon{
+.homePage__img .carusel-icon{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.right-icon{
+.homePage__img .right-icon{
     right: 0;
+}
+.homePage__img .swiper-button-prev, .homePage__img .swiper-button-next{
+
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.2);
+margin: -25px;
+    color: #fff;
+}
+.homePage__img .swiper-button-prev {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.homePage__img .swiper-button-next {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }

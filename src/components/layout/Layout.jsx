@@ -7,12 +7,14 @@ import Carusel from "../carusel/Carusel";
 import "./Layout.css";
 import Navbar from "../navbar/Navbar";
 
+
 const Layout = () => {
   return (
     <section>
       <main>
         <Header />
         <Navbar />
+       
         <div className="main-app">
           <Outlet />
         </div>

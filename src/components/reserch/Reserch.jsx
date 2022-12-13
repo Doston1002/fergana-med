@@ -1,24 +1,19 @@
 import React, { useRef, useState } from "react";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import "./Reserch.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-
-import "./Carusel.css";
-
 import caruselImg from "../../assets/images/carusel-image.png";
-import { CaruselIconLeft, CaruselIconRight } from "../../assets/icons/Icons";
-
-const Carusel = () => {
+const Reserch = () => {
   return (
-    <section>
+    <section className="Reserch-info">
       <>
+        <h2>Ilmiy tadqiqotlar</h2>
         <Swiper
-          spaceBetween={0}
-          centeredSlides={true}
+          slidesPerView={3}
+          spaceBetween={5}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -26,10 +21,37 @@ const Carusel = () => {
           pagination={{
             clickable: true,
           }}
+          breakpoints={{
+            "@0.00": {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            "@0.75": {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            "@1.00": {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            "@1.50": {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper homePage__img"
+          className="mySwiper reserchImg"
         >
+          <SwiperSlide className="">
+            <img width="100%" src={caruselImg} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img width="100%" src={caruselImg} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img width="100%" src={caruselImg} alt="" />
+          </SwiperSlide>
           <SwiperSlide>
             <img width="100%" src={caruselImg} alt="" />
           </SwiperSlide>
@@ -43,12 +65,9 @@ const Carusel = () => {
             <img width="100%" src={caruselImg} alt="" />
           </SwiperSlide>
         </Swiper>
-        <span className="carusel-icon right-icon">
-          <CaruselIconRight />
-        </span>
       </>
     </section>
   );
-};
+}
 
-export default Carusel;
+export default Reserch
