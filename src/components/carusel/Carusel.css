@@ -1,0 +1,15 @@
+section{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.carusel-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-icon{
+    right: 0;
+}

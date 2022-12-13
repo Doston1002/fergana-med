@@ -1,0 +1,43 @@
+header {
+  position: relative;
+  width: 100%;
+  background: #003b48;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.h-item {
+  /* border: 1px solid red; */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle {
+}
+
+
+.m-info div h1,
+.m-info div p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-item {
+  display: flex;
+  align-items: center;
+}

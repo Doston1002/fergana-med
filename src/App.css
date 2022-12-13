@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap");
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #003b48;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #003b48cb;
+}
+
+* {
+  font-family: "Rufina", serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2 {
+  margin: 0;
+}
