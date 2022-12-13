@@ -1,5 +1,4 @@
 import React from "react";
-import Carusel from "../components/carusel/Carusel";
 
 import "./Home.css";
 
@@ -12,7 +11,10 @@ import {
   MedicalTeamIcon,
   ForeignFacultiesIcon,
   CareWorkIcon,
+  DoubleQuoteIcon,
 } from "../assets/icons/Icons";
+import Carusel from "../components/carusel/Carusel";
+import rectorPicture from "../assets/images/rector.png";
 
 const Home = () => {
   return (
@@ -66,7 +68,7 @@ const Home = () => {
 
       {/* FACULTIES */}
       <div className="faculty">
-        <h2>Fakultetlar</h2>
+        <h3>Fakultetlar</h3>
         <div className="faculty__item">
           <CareWorkIcon />
           <p>jkndondoi</p>
@@ -101,7 +103,9 @@ const Home = () => {
       <div className="reason-section">
         <div className="reason-section-left">
           <div>
-            <p>Bizning intitutni <br /> tanlash uchun</p>
+            <p>
+              Bizning intitutni <br /> tanlash uchun
+            </p>
             <h1>5</h1>
             <p>sabab</p>
           </div>
@@ -114,10 +118,107 @@ const Home = () => {
           </div>
         </div>
         <div className="reason-section-right">
-          Bu yerda carusel bo`ladi
+          <DoubleQuoteIcon className={"double-quote"} />
+          <h3>Xalqaro daraja</h3>
+          <div>
+            Farg’ona jamoat salomatligi tibbiyot instituti diplomi dunyodagi
+            professional hamjamiyatlarning aksariyati tomonidan tan olingan.
+            Farg’ona jamoat salomatligi tibbiyot institutining 7000 dan ortiq
+            bitiruvchilari 138 mamlakatda ishlaydi. Yevropa, Amerika, Osiyo va
+            Afrikadagi vazirliklar, viloyatlar va eng yirik tibbiyot
+            universitetlari muntazam ravishda eng yaxshi bitiruvchilarni
+            Farg’ona jamoat salomatligi tibbiyot institutiga asosiy kursga,
+            ordinatura va aspiranturaga o‘qishga yuboradilar. O‘quv rejalari,
+            jumladan, ordinatura dasturlari turli mamlakatlar sog‘liqni saqlash
+            vazirliklari talablariga muvofiq muvofiqlashtiriladi.{" "}
+          </div>
         </div>
       </div>
       {/* OTHER SECTION */}
+
+      {/* BLOG OF RECTOR */}
+      <div className="blog-of-rector">
+        <div className="picture-of-rector">
+          <div className="layer-0"></div>
+          <div className="layer-1"></div>
+          <div className="layer-2">
+            <img src={rectorPicture} alt="rectorni rasmi" />
+          </div>
+        </div>
+        <div className="note-of-rector">
+          <h3>
+            "Ta'lim - bu dunyoni o'zgartirish uchun <br /> ishlatishingiz mumkin
+            bo'lgan eng kuchli quroldir."
+          </h3>
+
+          <p>
+            O'tmishda ko'p yillar davomida odamlar o'zlarining psixologik
+            ehtiyojlarini qondirish orqali omon qolishgan. Bugungi kunda biz
+            intellektual qobiliyatlar juda muhim bo'lgan davrda yashash
+            sharafiga egamiz. Har qanday ma'lumotni barcha qiziquvchan onglar
+            uchun osongina olish mumkin va texnologik evolyutsiya buning uchun
+            doimo mavjud bo'lishni ta'minlaydi. Biroq, ma'lumot izlayotganlar va
+            bilimga intilganlar o'rtasida aniq farq bor.
+          </p>
+
+          <p>Sidikov Akmal Abdikaxarovich</p>
+
+          <button>Rektor blogi</button>
+        </div>
+      </div>
+      {/* BLOG OF RECTOR */}
+
+      {/* LIFE OF STUDENTS */}
+      <div className="life-of-students">
+        <h3>Talabalar hayoti</h3>
+        <div class="scroll-parent">
+          <div class="scroll-element primary">
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/damilola-jerugba.svg"
+              alt="damilola jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/tosin-jerugba.svg"
+              alt="tosin jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/fiyin-jerugba.svg"
+              alt="fiyin jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/feyikemi-jerugba.svg"
+              alt="feyikemi jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/femi-jerugba.svg"
+              alt="femi jerugba"
+            />
+          </div>
+          <div class="scroll-element secondary">
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/damilola-jerugba.svg"
+              alt="damilola jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/tosin-jerugba.svg"
+              alt="tosin jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/fiyin-jerugba.svg"
+              alt="fiyin jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/feyikemi-jerugba.svg"
+              alt="feyikemi jerugba"
+            />
+            <img
+              src="https://avatars.dicebear.com/api/adventurer/femi-jerugba.svg"
+              alt="femi jerugba"
+            />
+          </div>
+        </div>
+      </div>
+      {/* LIFE OF STUDENTS */}
     </>
   );
 };

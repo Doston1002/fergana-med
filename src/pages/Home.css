@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Duru+Sans&family=Waterfall&display=swap");
+
 .show-case {
   position: relative;
   width: 100%;
@@ -90,10 +92,11 @@
   color: #ffffff;
 }
 
-.faculty h2 {
+.faculty h3 {
   position: absolute;
-  top: -60px;
+  top: -100px;
   color: black;
+  font-size: 32px;
 }
 
 .faculty__item {
@@ -117,7 +120,6 @@
 
 /* RESERCH AND OUR COMFORT */
 .reserch-comfort {
-  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 30px 0;
@@ -150,10 +152,9 @@
 /* OTHER SECTION */
 .reason-section {
   position: relative;
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 350px;
   padding: 0px 100px;
   color: white;
   background-image: url("../assets/images/reason-section3.png"),
@@ -171,42 +172,52 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: #003b4884;
+  background-color: #003b48a9;
 }
 
-.reason-section-right{
-  width: 60%;
-  display: flex;
-  align-items: center;
-  border: 1px solid khaki;
-  color: white ;
-  font-size: 20px;
-  z-index: 1;
+.reason-section-right {
+  position: relative;
+  width: 50%;
+  color: white;
+  padding: 10px 20px;
 }
 
-.reason-section-left{
+.reason-section-right h3 {
+  font-size: 32px;
+}
+
+.reason-section-right div {
+  font-size: 18px;
+}
+
+.double-quote {
+  position: absolute;
+  top: 40px;
+  transform: translateX(-120%);
+}
+
+.reason-section-left {
   width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   z-index: 1;
-  border: 1px solid red
 }
 
-.reason-section-left div{
+.reason-section-left div {
   display: flex;
   align-items: flex-end;
 }
 
-.reason-section-left div h1{
+.reason-section-left div h1 {
   font-size: 128px;
 }
 
-.reason-section-left div p{
+.reason-section-left div p {
   font-size: 32px;
 }
 
-.btn{
+.btn {
   border: none;
   background: white;
   width: 20px;
@@ -214,3 +225,147 @@
   border-radius: 50%;
 }
 /* OTHER SECTION */
+
+/* BLOG OF RECTOR */
+.blog-of-rector {
+  display: flex;
+  height: 550px;
+}
+
+.picture-of-rector {
+  position: relative;
+  width: 50%;
+}
+
+.layer-0 {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  bottom: 0;
+  right: 0;
+  background: #1c244f;
+  opacity: 0.1;
+}
+
+.layer-1 {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  bottom: 100px;
+  right: 50px;
+  background: #003b48;
+}
+
+.layer-2 {
+  position: absolute;
+  bottom: 50px;
+  right: 130px;
+  width: 500px;
+  height: 400px;
+}
+
+.layer-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.note-of-rector {
+  width: 50%;
+  padding: 60px 10px 10px 30px;
+}
+
+.note-of-rector h3{
+  font-size: 30px;
+}
+
+.note-of-rector h3 + p{
+  line-height: 30px;
+  font-size: 20px;
+  width: 90%;
+}
+
+.note-of-rector p + p {
+  font-family: "Duru Sans", sans-serif;
+  font-family: "Waterfall", cursive;
+  font-size: 80px;
+}
+
+.note-of-rector button {
+  border: none;
+  background: none;
+  margin-top: 20px;
+  margin-left: 80%;
+  padding: 8px 15px;
+  border: 2px inset black;
+  border-radius: 8px;
+}
+/* BLOG OF RECTOR */
+
+
+/* LIFE OD STUDENTS */
+.life-of-students{
+  position: relative;
+  height: 500px;
+  border: 2px solid red;
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.life-of-students h3{
+  position: absolute;
+  left: 50%;
+  top: -90px;
+  font-size: 32px;
+  transform: translateX(-50%);
+}
+
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 20rem;
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.scroll-element img {
+  width: 15%;
+}
+
+.primary {
+  animation: primary 5s linear infinite;
+}
+
+.secondary {
+  animation: secondary 5s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+/* LIFE OD STUDENTS */
