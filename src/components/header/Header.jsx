@@ -3,14 +3,12 @@ import React from "react";
 import "./Header.css";
 
 import {
-  DownIcon,
   GlassIcon,
   LogOutIcon,
   PhoneIcon,
   SmsIcon,
 } from "../../assets/icons/Icons";
 import { DownOutlined } from "@ant-design/icons";
-import mainLogo from "../../assets/images/main-logo.png";
 
 const Header = () => {
   return (
