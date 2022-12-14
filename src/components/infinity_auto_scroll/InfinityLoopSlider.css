@@ -1,0 +1,41 @@
+
+.tag-list {
+  width: 100%;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+
+.inner {
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  animation-name: loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: var(--direction);
+  animation-duration: var(--duration);
+}
+
+.images{
+  outline: 100px  solid #003b48a9 !important;
+  outline-offset: -100px;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  width: 300px;
+}
+
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

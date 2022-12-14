@@ -304,68 +304,16 @@
 
 /* LIFE OD STUDENTS */
 .life-of-students{
-  position: relative;
-  height: 500px;
-  border: 2px solid red;
-  margin-top: 150px;
+  height: 600px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
 .life-of-students h3{
-  position: absolute;
-  left: 50%;
-  top: -90px;
+  margin: 0;
+  text-align: center;
   font-size: 32px;
-  transform: translateX(-50%);
+  color: black !important;
 }
 
-
-.scroll-parent {
-  position: relative;
-  width: 100vw;
-  height: 20rem;
-  padding: 2rem 0;
-  overflow-x: hidden;
-}
-
-.scroll-element {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.scroll-element img {
-  width: 15%;
-}
-
-.primary {
-  animation: primary 5s linear infinite;
-}
-
-.secondary {
-  animation: secondary 5s linear infinite;
-}
-
-@keyframes primary {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
-}
-
-@keyframes secondary {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-}
 /* LIFE OD STUDENTS */

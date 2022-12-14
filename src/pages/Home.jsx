@@ -15,6 +15,7 @@ import {
 } from "../assets/icons/Icons";
 import Carusel from "../components/carusel/Carusel";
 import rectorPicture from "../assets/images/rector.png";
+import InfinityLoopSlider from "../components/infinity_auto_scroll/InfinityLoopSlider";
 
 const Home = () => {
   return (
@@ -171,52 +172,7 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
       <div className="life-of-students">
         <h3>Talabalar hayoti</h3>
-        <div class="scroll-parent">
-          <div class="scroll-element primary">
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/damilola-jerugba.svg"
-              alt="damilola jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/tosin-jerugba.svg"
-              alt="tosin jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/fiyin-jerugba.svg"
-              alt="fiyin jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/feyikemi-jerugba.svg"
-              alt="feyikemi jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/femi-jerugba.svg"
-              alt="femi jerugba"
-            />
-          </div>
-          <div class="scroll-element secondary">
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/damilola-jerugba.svg"
-              alt="damilola jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/tosin-jerugba.svg"
-              alt="tosin jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/fiyin-jerugba.svg"
-              alt="fiyin jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/feyikemi-jerugba.svg"
-              alt="feyikemi jerugba"
-            />
-            <img
-              src="https://avatars.dicebear.com/api/adventurer/femi-jerugba.svg"
-              alt="femi jerugba"
-            />
-          </div>
-        </div>
+        <InfinityLoopSlider/>
       </div>
       {/* LIFE OF STUDENTS */}
     </>
