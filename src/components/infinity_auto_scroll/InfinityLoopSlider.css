@@ -4,7 +4,7 @@
   display: flex;
   flex-shrink: 1;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   position: relative;
   padding: 1.5rem 0;
   overflow: hidden;
@@ -12,7 +12,7 @@
 
 .inner {
   display: flex;
-  gap: 20px;
+  gap: 5px;
   width: fit-content;
   animation-name: loop;
   animation-timing-function: linear;

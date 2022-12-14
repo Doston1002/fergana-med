@@ -31,18 +31,18 @@
 
     background: #F3F3F3;
 
-    margin: -90px -20px;
+    margin: -30px -20px;
     color: rgb(50, 47, 47);
 }
 
 .partnerInfo .swiper-button-prev {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
 }
 
 .partnerInfo .swiper-button-next {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 70%;
 }
 
 .partnerInfo .swiper-button-prev::after,
