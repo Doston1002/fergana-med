@@ -24,7 +24,6 @@ import {
   DoubleQuoteIcon,
 } from "../assets/icons/Icons";
 import Partner from "../components/partner/Partner";
-import Carusel from "../components/carusel/Carusel";
 import rectorPicture from "../assets/images/rector.png";
 import InfinityLoopSlider from "../components/infinity_auto_scroll/InfinityLoopSlider";
 
