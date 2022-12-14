@@ -1,4 +1,4 @@
-import "./InfinityLoopSlider.scss"
+import "./InfinityLoopSlider.css"
 const SRCS1 = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuP4A26vUkEZwYJL4zGV8KRxUbBmcX11Mdw&usqp=CAU",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBtC4-m8DnE4ZJkd-xdMZsJ3RMxv1RHLUXg&usqp=CAU",
