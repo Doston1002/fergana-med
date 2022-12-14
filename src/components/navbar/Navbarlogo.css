@@ -1,0 +1,42 @@
+.navbar-logo{
+   margin-top: -22px !important;
+    width: 600px;
+    height: 170px;
+    background:#fff;
+    z-index: 10000;
+    border-bottom-right-radius: 45%;
+        border-bottom-left-radius: 45%;    
+}
+.navbar-logo .logo{
+   
+    display: flex;
+    
+    align-items: center;
+}
+.navbar-logo .logo img{
+    
+    margin:20px 20px;
+}
+.navInfo-text  p{
+    font-family: 'Rufina', serif;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+        letter-spacing: 0.315em;
+        text-transform: uppercase;
+    
+        color: #000000;
+}
+.navInfo-text h2{
+    font-family: 'Rufina', serif;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        text-transform: uppercase;
+    
+        color: #000000;
+}

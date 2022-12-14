@@ -1,0 +1,33 @@
+.Reserch-info{
+    width: 100vw;
+    height: 30vh;
+}
+.reserchImg img{
+   
+        width: 100%;
+        height: 100%;
+       
+        border-radius: 10px;
+}
+.swiper-slide{
+        flex-shrink: 0;
+}
+.Reserch-info .swiper-button-prev,
+.Reserch-info .swiper-button-next {
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: -15px;
+    background: rgba(255, 255, 255, 0.2);
+    
+    color: #fff;
+}
+.Reserch-info .swiper-button-prev{
+border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.Reserch-info .swiper-button-next{
+    border-top-left-radius:50%;
+    border-bottom-left-radius: 50%;
+}

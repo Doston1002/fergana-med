@@ -1,8 +1,17 @@
 import React from "react";
 import Carusel from "../components/carusel/Carusel";
+import Reserch from "../components/reserch/Reserch";
+import Superiority from "../components/superiority/Superiority";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 import "./Home.css";
-
+import ReserchImg from "../assets/images/tadqiqot.png";
 import {
   TeachIcon,
   StudentIcon,
@@ -13,6 +22,7 @@ import {
   ForeignFacultiesIcon,
   CareWorkIcon,
 } from "../assets/icons/Icons";
+import Partner from "../components/partner/Partner";
 
 const Home = () => {
   return (
@@ -64,7 +74,6 @@ const Home = () => {
       </div>
       {/* SHOW CASE */}
 
-
       {/* FACULTIES */}
       <div className="faculty">
         <h2>Fakultetlar</h2>
@@ -85,29 +94,24 @@ const Home = () => {
       </div>
       {/* FACULTIES */}
 
-
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
         <div className="reserch">
-          <h2>Ilmiy tadqiqotlar</h2>
-          <article>
-            
-          </article>
+          <Reserch />
+          <article></article>
         </div>
         <div className="comfort">
-          <h2>Bizning afzalliklarimiz</h2>
-          <article>
-
-          </article>
+          <Superiority />
         </div>
       </div>
       {/* RESERCH AND OUR COMFORT */}
 
       {/* OTHER SECTION */}
-      <div className="reason-section">
-        s
-      </div>
+      <div className="reason-section"></div>
       {/* OTHER SECTION */}
+      <div className="partner-page">
+        <Partner />
+      </div>
     </>
   );
 };
