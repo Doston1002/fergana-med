@@ -6,12 +6,14 @@ import Footer from "../footer/Footer";
 import "./Layout.css";
 import Navbar from "../navbar/Navbar";
 
+
 const Layout = () => {
   return (
     <section>
       <main>
         <Header />
         <Navbar />
+       
         <div className="main-app">
           <Outlet />
         </div>
