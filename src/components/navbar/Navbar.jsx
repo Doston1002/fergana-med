@@ -1,24 +1,29 @@
+import { Dropdown } from 'antd';
 import React from 'react'
 
 import "./Navbar.css"
+import NavbarLogo from './NavbarLogo'
 
 const Navbar = () => {
   return (
-    <nav>
-        <ul className='left-nav'>
-            <li>Section</li>
-            <li>Section</li>
-            <li>Section</li>
-            <li>Section</li>
-        </ul>
-        <ul className='right-nav'>
-            <li>Action</li>
-            <li>Action</li>
-            <li>Action</li>
-            <li>Action</li>
-        </ul>
+    <nav className="nav">
+      <ul className="left-nav">
+        <li >
+          Institut 
+        </li>
+        <li>Tuzilma</li>
+        <li>Faoliyat</li>
+        <li>Talabalarga</li>
+      </ul>
+      <NavbarLogo />
+      <ul className="right-nav">
+        <li>Abiturientlarga</li>
+        <li>Xizmatlar</li>
+        <li>Moodle</li>
+        <li>Kongress</li>
+      </ul>
     </nav>
-  )
+  );
 }
 
 export default Navbar

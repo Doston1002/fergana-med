@@ -4,6 +4,9 @@ section{
     box-sizing: border-box;
 }
 
+.homePage__img{
+    z-index: -1;
+}
 .homePage__img .carusel-icon{
     position: absolute;
     top: 50%;
@@ -16,17 +19,27 @@ section{
 .homePage__img .swiper-button-prev, .homePage__img .swiper-button-next{
 
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background: rgba(255, 255, 255, 0.2);
-margin: -25px;
+margin: -45px ;
     color: #fff;
+    padding: 20px;
 }
 .homePage__img .swiper-button-prev {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
 }
 .homePage__img .swiper-button-next {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 70%;
+}
+.homePage__img .swiper-button-prev::after,
+.homePage__img .swiper-button-prev::before,
+.homePage__img .swiper-button-next::after,
+.homePage__img .swiper-button-next::before {
+   
+    font-size: 22px;
+    font-weight: 900;
 }

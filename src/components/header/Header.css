@@ -2,17 +2,24 @@ header {
   position: relative;
   width: 100%;
   background: #003b48;
-  padding: 10px 20px;
+  padding: 10px 10px;
   box-sizing: border-box;
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #fff;
 }
 
-.h-item {
-  /* border: 1px solid red; */
+.h-item p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+margin: 0 20px;
+color: #FFFFFF;
+
 }
 
 .left {
