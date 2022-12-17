@@ -1,15 +1,13 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import lexuz from "../../assets/images/lexuz.png";
 import maktab from "../../assets/images/maktab.png";
 import yoshlar from "../../assets/images/yoshlar.png";
 import dtm from "../../assets/images/dtm.png";
-import mainInfo from "../../assets/images/main-logo.png";
 import "./Partner.css";
 const Partner = () => {
   return (
