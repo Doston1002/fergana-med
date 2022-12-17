@@ -22,8 +22,8 @@
 }
 
 .images{
-  outline: 100px  solid #003b48a9 !important;
-  outline-offset: -100px;
+  outline: 150px  solid #003b48a9 !important;
+  outline-offset: -150px;
   overflow: hidden;
   position: relative;
   height: 150px;
