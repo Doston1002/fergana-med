@@ -12,6 +12,10 @@ ul {
   list-style-type: none;
 }
 
+ul li a{
+    color: #1c244f;
+}
+
 /* ---------- FOOTER LOGO ---------- */
 .footer-logo{
     display: flex;
