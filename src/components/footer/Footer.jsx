@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
@@ -16,13 +17,13 @@ import mapPng from "../../assets/images/map.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-logo">
+      <Link to="/" className="footer-logo">
         <img src={mainLogo} alt="Main Logo" />
         <div>
           <p>Farg’ona jamoat salomatligi</p>
           <p>tibbiyot instituti</p>
         </div>
-      </div>
+      </Link>
 
       <div className="footer-content">
         {/* BLOK-1 */}
