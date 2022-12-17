@@ -19,7 +19,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: url("../assets//images/show-case-bg.png");
+  background-image: url("../../assets//images/show-case-bg.png");
   background-size: cover;
   opacity: 0.05;
 }
@@ -88,7 +88,7 @@
   background: #003b48;
   padding: 100px 0;
   gap: 200px;
-  background-image: url("../assets/images/faculty-lines.png");
+  background-image: url("../../assets/images/faculty-lines.png");
   background-size: cover;
   color: #ffffff;
 }
@@ -144,7 +144,7 @@
 
 .comfort article {
   border: 1px solid red;
-  background-image: url("../assets//images/reserch-and-comfort-bg.jpg");
+  background-image: url("../../assets/images/reserch-and-comfort-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -158,9 +158,9 @@
   height: 350px;
   padding: 0px 100px;
   color: white;
-  background-image: url("../assets/images/reason-section3.png"),
-    url("../assets/images/reason-section2.png"),
-    url("../assets/images/reason-section1.png");
+  background-image: url("../../assets/images/reason-section3.png"),
+    url("../../assets/images/reason-section2.png"),
+    url("../../assets/images/reason-section1.png");
   background-position: left, left 35% bottom 0%, right;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 400px 100%, 400px 100%, 50% 100%;
