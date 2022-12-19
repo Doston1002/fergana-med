@@ -3,7 +3,6 @@ import './Navbarlogo.css'
 import logo from '../../assets/images/logo.png'
 const NavbarLogo = () => {
   return (
-    <div>
       <section>
         <div className="navbar-logo">
           <div className="logo">
@@ -15,7 +14,6 @@ const NavbarLogo = () => {
           </div>
         </div>
       </section>
-    </div>
   );
 }
 
