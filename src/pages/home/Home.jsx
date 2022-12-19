@@ -70,7 +70,8 @@ const Home = () => {
             <li>E`lon va tenderlar</li>
           </ul>
         </div>
-        <div className="show-case__cards"></div>
+        <div className="show-case__cards">
+        </div>
       </div>
       {/* SHOW CASE */}
 
@@ -99,13 +100,12 @@ const Home = () => {
         <div className="reserch">
           <h2>Ilmiy tadqiqotlar</h2>
           <article></article>
-          <Reserch />
-          <article></article>
+          {/* <Reserch /> */}
         </div>
         <div className="comfort">
-          <Superiority />
           <h2>Bizning afzalliklarimiz</h2>
           <article></article>
+          {/* <Superiority /> */}
         </div>
       </div>
       {/* RESERCH AND OUR COMFORT */}
@@ -187,8 +187,8 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
 
       {/* PARTNERS  */}
-      <div className="partner-page">
-        <Partner />
+      <div className="partners">
+        {/* <Partner /> */}
       </div>
       {/* PARTNERS  */}
 

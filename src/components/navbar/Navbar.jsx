@@ -14,7 +14,7 @@ const Navbar = () => {
         <li>Faoliyat</li>
         <li>Talabalarga</li>
       </ul>
-      <NavbarLogo />
+      {/* <NavbarLogo /> */}
       <ul className="right-nav">
         <li>Abiturientlarga</li>
         <li>Xizmatlar</li>
