@@ -90,6 +90,7 @@
   background-image: url("../../assets/images/faculty-lines.png");
   background-size: cover;
   color: #ffffff;
+  border: 1px solid seagreen ;
 }
 
 .faculty h3 {
@@ -108,7 +109,7 @@
 
 .faculty__item p {
   margin-top: 50px;
-  font-size: 32px;
+  font-size: 25px;
 }
 
 .vertical-line {

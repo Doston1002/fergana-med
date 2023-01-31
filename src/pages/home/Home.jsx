@@ -18,7 +18,7 @@ import {
 } from "../../assets/icons/Icons";
 import rectorPicture from "../../assets/images/rector.png";
 
-// import Carusel from "../../components/carusel/Carusel";
+import Carusel from "../../components/carusel/Carusel";
 import Reserch from "../../components/reserch/Reserch";
 import Superiority from "../../components/superiority/Superiority";
 import InfinityLoopSlider from "../../components/infinity_auto_scroll/InfinityLoopSlider";
@@ -27,7 +27,7 @@ import Partner from "../../components/partner/Partner";
 const Home = () => {
   return (
     <>
-      {/* <Carusel /> */}
+      <Carusel />
 
       {/* SHOW CASE */}
       <div className="show-case">
@@ -79,27 +79,26 @@ const Home = () => {
         <h3>Fakultetlar</h3>
         <div className="faculty__item">
           <CareWorkIcon />
-          <p>jkndondoi</p>
+          <p>Davolash ishi fakulteti</p>
         </div>
         <div className="vertical-line"></div>
         <div className="faculty__item">
           <MedicalTeamIcon />
-          <p>kjnsdondon</p>
+          <p>Tibbiy profilaktika va jamoat salomatligi fakulteti</p>
         </div>
         <div className="vertical-line"></div>
         <div className="faculty__item">
           <ForeignFacultiesIcon />
+          <p>Xalqaro ta’lim fakulteti</p>
         </div>
       </div>
       {/* FACULTIES */}
 
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
-        <div className="reserch">
-          <br />
+        {/* <div className="reserch">
           <Reserch />
-          <br />
-        </div>
+        </div> */}
         <div className="comfort">
           <Superiority />
         </div>
@@ -183,15 +182,11 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
 
       {/* PARTNERS  */}
-      <div className="partners">
-        {/* <Partner /> */}
-      </div>
+      <div className="partners">{/* <Partner /> */}</div>
       {/* PARTNERS  */}
 
       {/* FOOTER */}
-      <div className="footer">
-        
-      </div>
+      <div className="footer"></div>
       {/* FOOTER */}
     </>
   );
