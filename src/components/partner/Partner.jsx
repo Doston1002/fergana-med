@@ -42,7 +42,6 @@ const Partner = () => {
               spaceBetween: 50,
             },
           }}
-          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper partnerInfo"
         >
