@@ -13,7 +13,7 @@ const Partner = () => {
   return (
     <section>
       <>
-        <h3>Hamkorlar</h3>
+        <h3 className="">Hamkorlar</h3>
         <Swiper
           slidesPerView={5}
           spaceBetween={5}

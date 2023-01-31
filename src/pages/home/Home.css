@@ -110,6 +110,9 @@
 .faculty__item p {
   margin-top: 50px;
   font-size: 25px;
+  width: fit-content;
+  width: 300px;
+  margin-left: -60px;
 }
 
 .vertical-line {
@@ -142,8 +145,8 @@
   border: 1px solid red;
 }
 
-.comfort article {
-  border: 1px solid red;
+.comfort  {
+  margin: 30px 0px;
   background-image: url("../../assets/images/reserch-and-comfort-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;

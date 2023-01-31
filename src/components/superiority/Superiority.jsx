@@ -20,7 +20,7 @@ const Superiority = () => {
   return (
     <section>
       <>
-        <h3>Bizning afzalliklarimiz</h3>
+        <h3 className='we-strong'>Bizning afzalliklarimiz</h3>
         <Swiper
           slidesPerView={5}
           spaceBetween={5}
