@@ -17,9 +17,11 @@ const Header = () => {
         <p>25.02.2022 (GMT +5)</p>
         <GlassIcon />
       </div>
+
       <div className="h-item middle">
         any
       </div>
+      
       <div className="h-item right">
         <div className="right-item">
           <PhoneIcon />

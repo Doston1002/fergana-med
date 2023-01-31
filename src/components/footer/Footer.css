@@ -1,0 +1,132 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 30px;
+  padding: 30px 20px 30px 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li a{
+    color: #1c244f;
+}
+
+/* ---------- FOOTER LOGO ---------- */
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #1c244f;
+}
+
+.footer-logo div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo p{
+    text-transform: uppercase;
+}
+
+.footer-logo p + p{
+    font-size: 26px;
+}
+/* ---------- FOOTER LOGO ---------- */
+
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.footer-content p {
+  color: #1c244f;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.block-1 p, .block-2 p{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.block-1 li, .block-2 li{
+    margin: 10px;
+} 
+
+/* ---------- BLOCK-1 ---------- */
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* ---------- BLOCK-1 ---------- */
+
+
+
+/* ---------- BLOCK-2 ---------- */
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* ---------- BLOCK-2 ---------- */
+
+
+
+/* ---------- CONTACT ---------- */
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact ul{
+    display: flex;
+    gap: 30px;
+}
+
+.contact__phone-email{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact__phone-email div, .contact__map div{
+    display: flex;
+    gap: 10px;
+}
+
+.contact__phone-email button {
+    border-radius: 8px;
+    width: 160px;
+    padding: 10px 20px;
+}
+
+.contact__map img{
+    margin-bottom: 30px;
+}
+/* ---------- CONTACT ---------- */
+
+
+/* ---------- MEDIA QUERIES ---------- */
+@media screen and (max-width:920px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-1, .block-2, .contact{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* ---------- MEDIA QUERIES ---------- */

@@ -15,7 +15,7 @@ import { CaruselIconLeft, CaruselIconRight } from "../../assets/icons/Icons";
 const Carusel = () => {
   return (
     <section>
-      <>
+      {/* <>
         <Swiper
           spaceBetween={0}
           centeredSlides={true}
@@ -46,7 +46,8 @@ const Carusel = () => {
         <span className="carusel-icon right-icon">
           <CaruselIconRight />
         </span>
-      </>
+      </> */}
+      <img src={caruselImg} alt="" width="100%" />
     </section>
   );
 };

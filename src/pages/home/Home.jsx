@@ -1,17 +1,10 @@
 import React from "react";
-import Carusel from "../components/carusel/Carusel";
-import Reserch from "../components/reserch/Reserch";
-import Superiority from "../components/superiority/Superiority";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import "./Home.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
-import "./Home.css";
-import ReserchImg from "../assets/images/tadqiqot.png";
 import {
   TeachIcon,
   StudentIcon,
@@ -22,15 +15,19 @@ import {
   ForeignFacultiesIcon,
   CareWorkIcon,
   DoubleQuoteIcon,
-} from "../assets/icons/Icons";
-import Partner from "../components/partner/Partner";
-import rectorPicture from "../assets/images/rector.png";
-import InfinityLoopSlider from "../components/infinity_auto_scroll/InfinityLoopSlider";
+} from "../../assets/icons/Icons";
+import rectorPicture from "../../assets/images/rector.png";
+
+// import Carusel from "../../components/carusel/Carusel";
+import Reserch from "../../components/reserch/Reserch";
+import Superiority from "../../components/superiority/Superiority";
+import InfinityLoopSlider from "../../components/infinity_auto_scroll/InfinityLoopSlider";
+import Partner from "../../components/partner/Partner";
 
 const Home = () => {
   return (
     <>
-      <Carusel />
+      {/* <Carusel /> */}
 
       {/* SHOW CASE */}
       <div className="show-case">
@@ -77,7 +74,6 @@ const Home = () => {
       </div>
       {/* SHOW CASE */}
 
-
       {/* FACULTIES */}
       <div className="faculty">
         <h3>Fakultetlar</h3>
@@ -96,7 +92,6 @@ const Home = () => {
         </div>
       </div>
       {/* FACULTIES */}
-
 
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
@@ -183,12 +178,21 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
       <div className="life-of-students">
         <h3>Talabalar hayoti</h3>
-        <InfinityLoopSlider/>
+        <InfinityLoopSlider />
       </div>
       {/* LIFE OF STUDENTS */}
-      <div className="partner-page">
-        <Partner />
+
+      {/* PARTNERS  */}
+      <div className="partners">
+        {/* <Partner /> */}
       </div>
+      {/* PARTNERS  */}
+
+      {/* FOOTER */}
+      <div className="footer">
+        
+      </div>
+      {/* FOOTER */}
     </>
   );
 };
