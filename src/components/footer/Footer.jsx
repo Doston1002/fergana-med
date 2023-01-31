@@ -32,12 +32,12 @@ const Footer = () => {
           <div>
             <p>Intitut</p>
             <ul>
-              <li><Link>Institut haqida</Link></li>
-              <li><Link>Tuzilma</Link></li>
-              <li><Link>Kuzatuv kengashi</Link></li>
-              <li><Link>FJSTI Ilmiy jurnali</Link></li>
-              <li><Link>Bo’sh ish o’rinlari</Link></li>
-              <li><Link>Ochiq ma’lumotlar</Link></li>
+              <li><Link to="/">Institut haqida</Link></li>
+              <li><Link to="/">Tuzilma</Link></li>
+              <li><Link to="/">Kuzatuv kengashi</Link></li>
+              <li><Link to="/">FJSTI Ilmiy jurnali</Link></li>
+              <li><Link to="/">Bo’sh ish o’rinlari</Link></li>
+              <li><Link to="/">Ochiq ma’lumotlar</Link></li>
             </ul>
           </div>
 
@@ -45,11 +45,11 @@ const Footer = () => {
           <div>
             <p>Matbuot xizmati</p>
             <ul>
-              <li><Link>Yangiliklar</Link></li>
-              <li><Link>E’lonlar</Link></li>
-              <li><Link>Savol va javoblar</Link></li>
-              <li><Link>Tenderlar</Link></li>
-              <li><Link>Institut gazetasi</Link></li>
+              <li><Link to="/">Yangiliklar</Link></li>
+              <li><Link to="/">E’lonlar</Link></li>
+              <li><Link to="/">Savol va javoblar</Link></li>
+              <li><Link to="/">Tenderlar</Link></li>
+              <li><Link to="/">Institut gazetasi</Link></li>
             </ul>
           </div>
         </div>
@@ -61,12 +61,12 @@ const Footer = () => {
           <div>
             <p>Talabalar</p>
             <ul>
-              <li><Link>Bakalavriyat</Link></li>
-              <li><Link>Magistratura</Link></li>
-              <li><Link>Klinik ordinatura</Link></li>
-              <li><Link>Xalqaro talabalar</Link></li>
-              <li><Link>Qo’shma ta’lim</Link></li>
-              <li><Link>Doktarantura</Link></li>
+              <li><Link to="/">Bakalavriyat</Link></li>
+              <li><Link to="/">Magistratura</Link></li>
+              <li><Link to="/">Klinik ordinatura</Link></li>
+              <li><Link to="/">Xalqaro talabalar</Link></li>
+              <li><Link to="/">Qo’shma ta’lim</Link></li>
+              <li><Link to="/">Doktarantura</Link></li>
             </ul>
           </div>
 
@@ -74,12 +74,12 @@ const Footer = () => {
           <div>
             <p>Faoliayat</p>
             <ul>
-              <li><Link>Kafedralar</Link></li>
-              <li><Link>Ilmiy faoliyat</Link></li>
-              <li><Link>Xalqaro faoliyat</Link></li>
-              <li><Link>O’quv-uslubiy faoliyat</Link></li>
-              <li><Link>Markaz va tashkilotlar </Link></li>
-              <li><Link>FJSTI texnikumi va klinikalar</Link></li>
+              <li><Link to="/">Kafedralar</Link></li>
+              <li><Link to="/">Ilmiy faoliyat</Link></li>
+              <li><Link to="/">Xalqaro faoliyat</Link></li>
+              <li><Link to="/">O’quv-uslubiy faoliyat</Link></li>
+              <li><Link to="/">Markaz va tashkilotlar </Link></li>
+              <li><Link to="/">FJSTI texnikumi va klinikalar</Link></li>
             </ul>
           </div>
         </div>

@@ -2,7 +2,7 @@ header {
   position: relative;
   width: 100%;
   background: #003b48;
-  padding: 10px 10px;
+  padding: 10px;
   box-sizing: border-box;
   height: 70px;
   display: flex;
@@ -12,70 +12,46 @@ header {
 }
 
 .h-item p {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-margin: 0 20px;
-color: #FFFFFF;
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
 .left {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .middle {
-}
-
-
-.m-info div h1,
-.m-info div p {
-  margin: 0;
-  text-transform: uppercase;
 }
 
 .right {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .right-item {
   display: flex;
   align-items: center;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
+  gap: 5px;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+.right-item:nth-child(3) svg {
+  width: 10px;
+  height: 10px;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+/* MEDIA QUARIES */
+@media screen and (max-width: 768px) {
+  .middle{
+    display: none;
+  }
 }
+/* MEDIA QUARIES */

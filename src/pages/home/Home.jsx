@@ -18,7 +18,7 @@ import {
 } from "../../assets/icons/Icons";
 import rectorPicture from "../../assets/images/rector.png";
 
-import Carusel from "../../components/carusel/Carusel";
+// import Carusel from "../../components/carusel/Carusel";
 import Reserch from "../../components/reserch/Reserch";
 import Superiority from "../../components/superiority/Superiority";
 import InfinityLoopSlider from "../../components/infinity_auto_scroll/InfinityLoopSlider";
@@ -27,7 +27,7 @@ import Partner from "../../components/partner/Partner";
 const Home = () => {
   return (
     <>
-      <Carusel />
+      {/* <Carusel /> */}
 
       {/* SHOW CASE */}
       <div className="show-case">
