@@ -39,7 +39,7 @@ const Reserch = () => {
               spaceBetween: 50,
             },
           }}
-          navigation={true}
+          // navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper reserchImg"
         >

@@ -49,7 +49,6 @@ const Superiority = () => {
               spaceBetween: 50,
             },
           }}
-          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper superiorityInfo"
         >
