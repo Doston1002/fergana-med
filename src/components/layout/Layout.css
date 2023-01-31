@@ -1,10 +1,10 @@
-section{
+.layot-section{
     overflow: hidden;
     margin: 0;
 }
 
 @media screen and (min-width: 1900px) {
-    section{
+    .layot-section{
         max-width: 1500px;
         margin: 0 auto;
     }

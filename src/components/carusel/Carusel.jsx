@@ -15,7 +15,6 @@ import { CaruselIconLeft, CaruselIconRight } from "../../assets/icons/Icons";
 const Carusel = () => {
   return (
     <section>
-      {/* <>
         <Swiper
           spaceBetween={0}
           centeredSlides={true}
@@ -23,11 +22,8 @@ const Carusel = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
           navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="mySwiper homePage__img"
         >
           <SwiperSlide>
@@ -43,11 +39,7 @@ const Carusel = () => {
             <img width="100%" src={caruselImg} alt="" />
           </SwiperSlide>
         </Swiper>
-        <span className="carusel-icon right-icon">
-          <CaruselIconRight />
-        </span>
-      </> */}
-      <img src={caruselImg} alt="" width="100%" />
+      {/* <img src={caruselImg} alt="" width="100%" /> */}
     </section>
   );
 };

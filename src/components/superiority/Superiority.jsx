@@ -1,35 +1,32 @@
-import React from 'react'
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
- 
-import "./Superiority.css"
 
- import {
-   Superiority1,
-   Superiority2,
-   Superiority3,
-   Superiority4,
-   Superiority5,
- } from "../../assets/icons/Icons";
+import "./Superiority.css";
+
+import {
+  Superiority1,
+  Superiority2,
+  Superiority3,
+  Superiority4,
+  Superiority5,
+} from "../../assets/icons/Icons";
 
 const Superiority = () => {
   return (
-    <section>
+    <section className="comfort">
       <>
-        <h3 className='we-strong'>Bizning afzalliklarimiz</h3>
+        <h2 className="">Bizning afzalliklarimiz</h2>
         <Swiper
           slidesPerView={5}
           spaceBetween={5}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
           }}
           breakpoints={{
             "@0.00": {
@@ -49,84 +46,56 @@ const Superiority = () => {
               spaceBetween: 50,
             },
           }}
+          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper superiorityInfo"
         >
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority1 />
-              </span>
-              <h3>
-                Taʼlim sifatini nazorat qilishning avtomatlashtirilganligi
-              </h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority1 />
+            </span>
+            <p>Taʼlim sifatini nazorat qilishning avtomatlashtirilganligi</p>
           </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority2 />
-              </span>
-              <h3>
-                O‘quv auditoriya va laboratoriyalarning zamonaviy uskunalar
-                bilan taʼminlanganligi
-              </h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority2 />
+            </span>
+            <p>
+              O‘quv auditoriya va <br /> laboratoriyalarning <br /> zamonaviy uskunalar <br /> bilan
+              taʼminlanganligi
+            </p>
           </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority3 />
-              </span>
-              <h3>
-                Taʼlim jarayoniga nufuzli chet el klinikalari va
-                universitetlaridan ilg‘or mutaxassislarni jalb etish
-              </h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority3 />
+            </span>
+            <p>
+              Taʼlim jarayoniga nufuzli <br /> chet el klinikalari va <br />
+              universitetlaridan ilg‘or <br /> mutaxassislarni jalb etish
+            </p>
           </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority4 />
-              </span>
-              <h3>To‘liq avtomatlashtirilgan universitet</h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority4 />
+            </span>
+            <p>To‘liq avtomatlashtirilgan <br /> universitet</p>
           </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority5 />
-              </span>
-              <h3>
-                Taʼlimning ilk bosqichlaridan tibbiyot amaliyotiga jalb etish
-              </h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority5 />
+            </span>
+            <p>Taʼlimning ilk <br /> bosqichlaridan tibbiyot <br /> amaliyotiga jalb etish</p>
           </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority1 />
-              </span>
-              <h3>
-                Taʼlim sifatini nazorat qilishning avtomatlashtirilganligi
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <span className="icon">
-                <Superiority2 />
-              </span>
-              <h3>
-                O‘quv auditoriya va laboratoriyalarning zamonaviy uskunalar
-                bilan taʼminlanganligi
-              </h3>
-            </div>
+          <SwiperSlide className="comfort-item">
+            <span className="icon">
+              <Superiority5 />
+            </span>
+            <p>Taʼlimning ilk <br /> bosqichlaridan tibbiyot <br /> amaliyotiga jalb etish</p>
           </SwiperSlide>
         </Swiper>
       </>
     </section>
   );
-}
+};
 
-export default Superiority
+export default Superiority;

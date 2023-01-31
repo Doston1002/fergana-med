@@ -21,9 +21,6 @@ const Partner = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
           breakpoints={{
             "@0.00": {
               slidesPerView: 1,

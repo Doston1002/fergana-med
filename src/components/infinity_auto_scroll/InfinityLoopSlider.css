@@ -1,6 +1,5 @@
-
 .tag-list {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-shrink: 1;
   flex-direction: column;
@@ -26,7 +25,7 @@
   outline-offset: -150px;
   overflow: hidden;
   position: relative;
-  height: 150px;
+  height: 200px;
   width: 300px;
 }
 

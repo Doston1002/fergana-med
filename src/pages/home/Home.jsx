@@ -58,19 +58,6 @@ const Home = () => {
             <p>Chet el talabalari</p>
           </div>
         </div>
-        {/* <div className="show-case__header">
-          <ul>
-            <li>Yangiliklar</li>
-          </ul>
-
-          <ul>
-            <li>Hammasi</li>
-            <li>Yangiliklar</li>
-            <li>Press-relizlar</li>
-            <li>E`lon va tenderlar</li>
-          </ul>
-        </div> */}
-        {/* <div className="show-case__cards"></div> */}
       </div>
       {/* SHOW CASE */}
 
@@ -96,12 +83,8 @@ const Home = () => {
 
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
-        {/* <div className="reserch">
-          <Reserch />
-        </div> */}
-        <div className="comfort">
-          <Superiority />
-        </div>
+        <Reserch />
+        <Superiority />
       </div>
       {/* RESERCH AND OUR COMFORT */}
 
@@ -182,7 +165,9 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
 
       {/* PARTNERS  */}
-      <div className="partners"><Partner /></div>
+      <div className="partners">
+        <Partner />
+      </div>
       {/* PARTNERS  */}
 
       {/* FOOTER */}

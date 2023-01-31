@@ -1,57 +1,65 @@
+.comfort{
+}
+
+.comfort h2 {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.comfort-item{
+
+}
+
 .superiorityInfo .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0 auto;
+  border: 1px dashed #000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.07);
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.comfort-item{
     display: flex;
-    align-items:center;
-    justify-content: center;
-background: #fff;
-    width: 7vw !important;
-    height: 7vw !important;
-    margin: 0 auto;
-    border: 1px dashed #000 ;
-    
-    border-radius:50%;
-    align-items:center;
-    box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.07);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    text-align: center;
 }
 
-
-.superiorityInfo h3{
-    font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-}
 .superiorityInfo .swiper-button-prev,
 .superiorityInfo .swiper-button-next {
-
-
-    position: absolute;
-    width: 60px;
-        height: 60px;
-    
-        background: #F3F3F3;
-       
-    margin:-90px -20px;
-    color: rgb(50, 47, 47);
+  position: absolute;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.306);
+  color: #000;
 }
 
 .superiorityInfo .swiper-button-prev {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+  border-bottom-right-radius: 140px;
+  border-top-right-radius: 140px;
+  margin-left: -10px;
+  padding-left: -15px;
 }
 
 .superiorityInfo .swiper-button-next {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-}
-.superiorityInfo .swiper-button-prev::after,.superiorityInfo .swiper-button-prev::before,.superiorityInfo .swiper-button-next::after,.superiorityInfo .swiper-button-next::before {
-    width: 20px !important;
-    font-size: 20px;
-    font-weight: 900;
+  border-bottom-left-radius: 140px;
+  border-top-left-radius: 140px;
+  margin-right: -10px;
+  padding-right: 5px;
 }
 
-.we-strong{
-    margin-left: 50px;
-    font-weight: 700px;
-    font-size: 24px;
+.superiorityInfo .swiper-button-prev::after,
+.superiorityInfo .swiper-button-next::after {
+  font-size: 15px;
+  font-weight: 900;
 }

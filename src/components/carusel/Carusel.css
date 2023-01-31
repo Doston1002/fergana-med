@@ -1,43 +1,32 @@
 section {
   position: relative;
-  width: 100%;
-  box-sizing: border-box;
 }
 
-.homePage__img {
-  z-index: -1;
-}
-.homePage__img .carusel-icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.homePage__img .right-icon {
-  right: 0;
-}
 .homePage__img .swiper-button-prev,
 .homePage__img .swiper-button-next {
   position: absolute;
-  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
   height: 100px;
   background: rgba(255, 255, 255, 0.2);
-  margin: -45px;
   color: #fff;
-  padding: 20px;
 }
+
 .homePage__img .swiper-button-prev {
-  border-top-right-radius: 70%;
-  border-bottom-right-radius: 70%;
+  border-bottom-right-radius: 140px;
+  border-top-right-radius: 140px;
+  margin-left: -10px;
 }
+
 .homePage__img .swiper-button-next {
-  border-top-left-radius: 70%;
-  border-bottom-left-radius: 70%;
+  border-bottom-left-radius: 140px;
+  border-top-left-radius: 140px;
+  margin-right: -10px;
 }
+
 .homePage__img .swiper-button-prev::after,
-.homePage__img .swiper-button-prev::before,
-.homePage__img .swiper-button-next::after,
-.homePage__img .swiper-button-next::before {
-  font-size: 22px;
+.homePage__img .swiper-button-next::after {
+  font-size: 20px;
   font-weight: 900;
 }
