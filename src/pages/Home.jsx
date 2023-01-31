@@ -2,7 +2,7 @@ import React from "react";
 import Carusel from "../components/carusel/Carusel";
 import Reserch from "../components/reserch/Reserch";
 import Superiority from "../components/superiority/Superiority";
-
+import Selection from "../components/selection/Selection";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -77,7 +77,6 @@ const Home = () => {
       </div>
       {/* SHOW CASE */}
 
-
       {/* FACULTIES */}
       <div className="faculty">
         <h3>Fakultetlar</h3>
@@ -97,7 +96,6 @@ const Home = () => {
       </div>
       {/* FACULTIES */}
 
-
       {/* RESERCH AND OUR COMFORT */}
       <div className="reserch-comfort">
         <div className="reserch">
@@ -112,40 +110,7 @@ const Home = () => {
       {/* RESERCH AND OUR COMFORT */}
 
       {/* OTHER SECTION */}
-      <div className="reason-section">
-        <div className="reason-section-left">
-          <div>
-            <p>
-              Bizning intitutni <br /> tanlash uchun
-            </p>
-            <h1>5</h1>
-            <p>sabab</p>
-          </div>
-          <div>
-            <button className="btn c-btn">1</button>
-            <button className="btn c-btn">2</button>
-            <button className="btn c-btn">3</button>
-            <button className="btn c-btn">4</button>
-            <button className="btn c-btn">5</button>
-          </div>
-        </div>
-        <div className="reason-section-right">
-          <DoubleQuoteIcon className={"double-quote"} />
-          <h3>Xalqaro daraja</h3>
-          <div>
-            Farg’ona jamoat salomatligi tibbiyot instituti diplomi dunyodagi
-            professional hamjamiyatlarning aksariyati tomonidan tan olingan.
-            Farg’ona jamoat salomatligi tibbiyot institutining 7000 dan ortiq
-            bitiruvchilari 138 mamlakatda ishlaydi. Yevropa, Amerika, Osiyo va
-            Afrikadagi vazirliklar, viloyatlar va eng yirik tibbiyot
-            universitetlari muntazam ravishda eng yaxshi bitiruvchilarni
-            Farg’ona jamoat salomatligi tibbiyot institutiga asosiy kursga,
-            ordinatura va aspiranturaga o‘qishga yuboradilar. O‘quv rejalari,
-            jumladan, ordinatura dasturlari turli mamlakatlar sog‘liqni saqlash
-            vazirliklari talablariga muvofiq muvofiqlashtiriladi.{" "}
-          </div>
-        </div>
-      </div>
+      <Selection />
       {/* OTHER SECTION */}
 
       {/* BLOG OF RECTOR */}
@@ -183,10 +148,11 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
       <div className="life-of-students">
         <h3>Talabalar hayoti</h3>
-        <InfinityLoopSlider/>
+        <InfinityLoopSlider />
       </div>
       {/* LIFE OF STUDENTS */}
       <div className="partner-page">
+        {/* <h3>Hamkorlar</h3> */}
         <Partner />
       </div>
     </>

@@ -179,7 +179,7 @@
 .reason-section-right {
   position: relative;
   width: 50%;
-  color: white;
+  
   padding: 10px 20px;
 }
 
@@ -310,11 +310,15 @@
   overflow: hidden;
 }
 
-.life-of-students h3{
-  margin: 0;
-  text-align: center;
+.life-of-students h3, .partner-page h3{
+  display: flex;
+  justify-content: center;
+font-family: 'Rufina';
+  font-style: normal;
+  margin: 15px 0;
+  font-weight: 400;
   font-size: 32px;
-  color: black !important;
+  
 }
 
 /* LIFE OD STUDENTS */
