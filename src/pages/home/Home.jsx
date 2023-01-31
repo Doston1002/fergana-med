@@ -182,7 +182,7 @@ const Home = () => {
       {/* LIFE OF STUDENTS */}
 
       {/* PARTNERS  */}
-      <div className="partners">{/* <Partner /> */}</div>
+      <div className="partners"><Partner /></div>
       {/* PARTNERS  */}
 
       {/* FOOTER */}
