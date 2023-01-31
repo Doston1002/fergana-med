@@ -1,56 +1,70 @@
+.partners {
+  margin-bottom: 70px;
+}
 
+.partnerInfo{
+  height: 200px;
+}
 
-.partnerInfo span img {
+.partners h2 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.partnerInfo div img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 120px;
 }
 
-.partnerInfo h3 {
+.partnerInfo p {
+  width: 248px;
+  height: 46px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  font-family: "Roboto";
   color: #010162;
 }
+
+.partners-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+}
+
 
 .partnerInfo .swiper-button-prev,
 .partnerInfo .swiper-button-next {
   position: absolute;
-  width: 60px;
+  transform: translateY(-50%);
+  width: 30px;
   height: 60px;
-
-  background: #f3f3f3;
-
-  margin: -90px -20px;
-  color: rgb(50, 47, 47);
+  background: rgba(0, 0, 0, 0.306);
+  color: #000;
 }
 
 .partnerInfo .swiper-button-prev {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-bottom-right-radius: 140px;
+  border-top-right-radius: 140px;
+  margin-left: -10px;
+  padding-left: -15px;
 }
 
 .partnerInfo .swiper-button-next {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 140px;
+  border-top-left-radius: 140px;
+  margin-right: -10px;
+  padding-right: 5px;
 }
 
 .partnerInfo .swiper-button-prev::after,
-.partnerInfo .swiper-button-prev::before,
-.partnerInfo .swiper-button-next::after,
-.partnerInfo .swiper-button-next::before {
-  width: 20px !important;
-  font-size: 20px;
+.partnerInfo .swiper-button-next::after {
+  font-size: 15px;
   font-weight: 900;
-}
-
-
-.partners{
-  margin-left: 50px;
-  font-weight: 700px;
-  font-size: 24px;
 }
